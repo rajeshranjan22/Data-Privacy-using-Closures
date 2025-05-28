@@ -16,7 +16,8 @@
 <script>
 
     function createCounter() {
-        let
+        let count = 0;
+
         return {
             increment: function () {
                 count += 1;
@@ -28,6 +29,7 @@
         };
     }
 
+    // Usage
     const counter = createCounter();
 
     console.log(counter.increment());
